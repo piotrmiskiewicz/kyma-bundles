@@ -9,5 +9,6 @@ deploy:
   github-token: $GITHUB_TOKEN
   keep-history: true
   local-dir: toCopy
+  target-branch: repository
   on:
     branch: master
